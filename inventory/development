@@ -1,2 +1,6 @@
 [south]
 127.5.67.18
+
+[south:vars]
+ansible_user: "{{ vault_ansible_user }}"
+ansible_password: "{{ vault_ansible_password }}"
