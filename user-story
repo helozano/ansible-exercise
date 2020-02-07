@@ -1,0 +1,23 @@
+Description
+
+As an automation engineer I want to create a single playbook that deploys an oracle database for south region so I can shorten the time invested
+
+Currently the team (manual process):
+
+- Prepares a manifest.json with the description of the machine resource
+- Spins up a new vm
+- Joins the computer to the right domain
+- Installs the oracle database
+- Configures security settings
+- Deploys the Database
+
+
+Acceptance criteria:
+
+- The playbook:  
+ - Creates a new vm
+ - Joins the resulting computer to a domain
+ - Deploys the database
+
+Has an ansible-playbook command to run the playbook
+              ansible-playbook –i <path inventario> <path playbook>
