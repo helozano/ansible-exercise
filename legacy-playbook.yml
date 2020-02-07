@@ -1,0 +1,6 @@
+---
+- hosts: <target computer / group>
+  vars_files: vault/south.yml
+  roles:
+    - <role name>
+    - <role name>
