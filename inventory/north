@@ -1,0 +1,12 @@
+[production]
+128.3.90.1
+
+[development]
+128.3.90.1
+
+[regions:children]
+production
+development
+
+[regions:var]
+my_var: may_var_value
