@@ -1,2 +1,2 @@
-ansible_user: <myUser>
-ansible_password: <myPassword>
+vault_ansible_user: <myUser>
+vault_ansible_password: <myPassword>
