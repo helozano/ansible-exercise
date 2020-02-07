@@ -1,0 +1,10 @@
+---
+- hosts: south
+  vars_files: vault/local.yml
+  roles:
+    - ansible-role-get-manifest
+    - ansible-role-create-vm
+    - ansible-role-join-domain
+    - ansible-role-oracle
+    - ansible-role-pre-deploy
+    - ansible-role-deploy-db
