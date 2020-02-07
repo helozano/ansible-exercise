@@ -1,1 +1,3 @@
-
+ansible_user: <my domain user>
+ansible_password: <my domain Password>
+db_connection: <string to connect to db>
